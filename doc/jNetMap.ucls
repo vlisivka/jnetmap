@@ -1,0 +1,1488 @@
+<class-diagram version="0.9.86" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true">  
+  <class corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.controller.Controller" project="jNetMap" 
+    file="/jNetMap/src/ch/rakudave/jnetmap/controller/Controller.java" binary="false">    
+    <position x="645" y="427" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.controller.Actions" project="jNetMap" 
+    file="/jNetMap/src/ch/rakudave/jnetmap/controller/Actions.java" binary="false">    
+    <position x="433" y="305" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.controller.StatusUpdater" project="jNetMap" 
+    file="/jNetMap/src/ch/rakudave/jnetmap/controller/StatusUpdater.java" binary="false">    
+    <position x="983" y="495" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.controller.Listeners" project="jNetMap" 
+    file="/jNetMap/src/ch/rakudave/jnetmap/controller/Listeners.java" binary="false">    
+    <position x="348" y="480" width="173" height="65"/>    
+    <display autosize="false" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.controller.Scheduler" project="jNetMap" 
+    file="/jNetMap/src/ch/rakudave/jnetmap/controller/Scheduler.java" binary="false">    
+    <position x="979" y="282" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.controller.InstanceDetector" project="jNetMap" 
+    file="/jNetMap/src/ch/rakudave/jnetmap/controller/InstanceDetector.java" binary="false">    
+    <position x="642" y="195" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.model.Map" project="jNetMap" 
+    file="/jNetMap/src/ch/rakudave/jnetmap/model/Map.java" binary="false">    
+    <position x="1538" y="1252" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <enumeration corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.model.Connection.Type" project="jNetMap" 
+    file="/jNetMap/src/ch/rakudave/jnetmap/model/Connection.java" binary="false">    
+    <position x="1930" y="2112" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </enumeration>  
+  <class corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.model.Connection" project="jNetMap" 
+    file="/jNetMap/src/ch/rakudave/jnetmap/model/Connection.java" binary="false">    
+    <position x="1697" y="2107" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <interface corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.model.device.Device" project="jNetMap" 
+    file="/jNetMap/src/ch/rakudave/jnetmap/model/device/Device.java" binary="false">    
+    <position x="1459" y="2233" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <enumeration corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.model.device.Device.Type" 
+    project="jNetMap" file="/jNetMap/src/ch/rakudave/jnetmap/model/device/Device.java" binary="false">    
+    <position x="1190" y="2223" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </enumeration>  
+  <class corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.model.factories.DeviceFactory" 
+    project="jNetMap" file="/jNetMap/src/ch/rakudave/jnetmap/model/factories/DeviceFactory.java" binary="false">    
+    <position x="1249" y="1828" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.model.factories.ConnectionFactory" 
+    project="jNetMap" file="/jNetMap/src/ch/rakudave/jnetmap/model/factories/ConnectionFactory.java" binary="false">    
+    <position x="1837" y="1814" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <enumeration corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.model.device.DeviceEvent.Type" 
+    project="jNetMap" file="/jNetMap/src/ch/rakudave/jnetmap/model/device/DeviceEvent.java" binary="false">    
+    <position x="989" y="2188" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </enumeration>  
+  <class corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.model.device.DeviceEvent" project="jNetMap" 
+    file="/jNetMap/src/ch/rakudave/jnetmap/model/device/DeviceEvent.java" binary="false">    
+    <position x="992" y="1981" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <interface corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.model.device.DeviceListener" 
+    project="jNetMap" file="/jNetMap/src/ch/rakudave/jnetmap/model/device/DeviceListener.java" binary="false">    
+    <position x="994" y="1818" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <class corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.model.IF.PhysicalIF" project="jNetMap" 
+    file="/jNetMap/src/ch/rakudave/jnetmap/model/IF/PhysicalIF.java" binary="false">    
+    <position x="1962" y="2972" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.model.IF.TransparentIF" project="jNetMap" 
+    file="/jNetMap/src/ch/rakudave/jnetmap/model/IF/TransparentIF.java" binary="false">    
+    <position x="1468" y="2918" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.model.IF.LogicalIF" project="jNetMap" 
+    file="/jNetMap/src/ch/rakudave/jnetmap/model/IF/LogicalIF.java" binary="false">    
+    <position x="1702" y="2894" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <interface corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.model.IF.NetworkIF" project="jNetMap" 
+    file="/jNetMap/src/ch/rakudave/jnetmap/model/IF/NetworkIF.java" binary="false">    
+    <position x="1747" y="2478" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <class corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.model.MapEvent" project="jNetMap" 
+    file="/jNetMap/src/ch/rakudave/jnetmap/model/MapEvent.java" binary="false">    
+    <position x="1039" y="1071" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <interface corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.model.MapListener" project="jNetMap" 
+    file="/jNetMap/src/ch/rakudave/jnetmap/model/MapListener.java" binary="false">    
+    <position x="1039" y="911" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <enumeration corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.model.MapEvent.Type" project="jNetMap" 
+    file="/jNetMap/src/ch/rakudave/jnetmap/model/MapEvent.java" binary="false">    
+    <position x="1043" y="1252" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </enumeration>  
+  <interface corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.controller.command.Command" 
+    project="jNetMap" file="/jNetMap/src/ch/rakudave/jnetmap/controller/command/Command.java" binary="false">    
+    <position x="1783" y="360" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <class corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.controller.command.CommandHistory" 
+    project="jNetMap" file="/jNetMap/src/ch/rakudave/jnetmap/controller/command/CommandHistory.java" binary="false">    
+    <position x="1523" y="359" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <interface corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.view.IView" project="jNetMap" 
+    file="/jNetMap/src/ch/rakudave/jnetmap/view/IView.java" binary="false">    
+    <position x="259" y="810" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <class corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.view.MapView" project="jNetMap" 
+    file="/jNetMap/src/ch/rakudave/jnetmap/view/MapView.java" binary="false">    
+    <position x="268" y="1083" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <interface corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.view.ISidebar" project="jNetMap" 
+    file="/jNetMap/src/ch/rakudave/jnetmap/view/ISidebar.java" binary="false">    
+    <position x="-197" y="981" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <interface corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.view.IStatusbar" project="jNetMap" 
+    file="/jNetMap/src/ch/rakudave/jnetmap/view/IStatusbar.java" binary="false">    
+    <position x="597" y="1006" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <class corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.view.components.StatusBar" project="jNetMap" 
+    file="/jNetMap/src/ch/rakudave/jnetmap/view/components/StatusBar.java" binary="false">    
+    <position x="598" y="1213" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.view.components.TabPanel" project="jNetMap" 
+    file="/jNetMap/src/ch/rakudave/jnetmap/view/components/TabPanel.java" binary="false">    
+    <position x="271" y="1483" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.view.components.TabPanel.TabComponent" 
+    project="jNetMap" file="/jNetMap/src/ch/rakudave/jnetmap/view/components/TabPanel.java" binary="false">    
+    <position x="268" y="1835" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.view.components.TabPanel.ClosableTabHeader" 
+    project="jNetMap" file="/jNetMap/src/ch/rakudave/jnetmap/view/components/TabPanel.java" binary="false">    
+    <position x="602" y="1559" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="edu.uci.ics.jung.visualization.VisualizationViewer" 
+    project="jNetMap" file="/jNetMap/lib/jung/jung-visualization-2.0.1.jar" binary="true">    
+    <position x="-102" y="2104" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.view.jung.MapGraphMouse" project="jNetMap" 
+    file="/jNetMap/src/ch/rakudave/jnetmap/view/jung/MapGraphMouse.java" binary="false">    
+    <position x="509" y="2126" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.view.components.EditPanel" project="jNetMap" 
+    file="/jNetMap/src/ch/rakudave/jnetmap/view/components/EditPanel.java" binary="false">    
+    <position x="-203" y="1640" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.view.components.InfoPanel" project="jNetMap" 
+    file="/jNetMap/src/ch/rakudave/jnetmap/view/components/InfoPanel.java" binary="false">    
+    <position x="-204" y="1200" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.plugins.NotePanel" project="jNetMap" 
+    file="/jNetMap/src/ch/rakudave/jnetmap/plugins/NotePanel.java" binary="false">    
+    <position x="-204" y="1409" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.view.components.MenuBar" project="jNetMap" 
+    file="/jNetMap/src/ch/rakudave/jnetmap/view/components/MenuBar.java" binary="false">    
+    <position x="591" y="811" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.view.components.AboutDialog" project="jNetMap" 
+    file="/jNetMap/src/ch/rakudave/jnetmap/view/components/AboutDialog.java" binary="false">    
+    <position x="-573" y="1802" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.view.components.NetworkScanner" 
+    project="jNetMap" file="/jNetMap/src/ch/rakudave/jnetmap/view/components/NetworkScanner.java" binary="false">    
+    <position x="-780" y="1666" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.view.components.PortScanner" project="jNetMap" 
+    file="/jNetMap/src/ch/rakudave/jnetmap/view/components/PortScanner.java" binary="false">    
+    <position x="-578" y="1665" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.view.components.SplashScreen" project="jNetMap" 
+    file="/jNetMap/src/ch/rakudave/jnetmap/view/components/SplashScreen.java" binary="false">    
+    <position x="-778" y="1831" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.view.components.WelcomeScreen" 
+    project="jNetMap" file="/jNetMap/src/ch/rakudave/jnetmap/view/components/WelcomeScreen.java" binary="false">    
+    <position x="603" y="1416" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.view.jung.VertexTransformers" project="jNetMap" 
+    file="/jNetMap/src/ch/rakudave/jnetmap/view/jung/VertexTransformers.java" binary="false">    
+    <position x="-129" y="2347" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.view.jung.EdgeTransformers" project="jNetMap" 
+    file="/jNetMap/src/ch/rakudave/jnetmap/view/jung/EdgeTransformers.java" binary="false">    
+    <position x="-135" y="2470" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.view.jung.EditGraphMousePlugin" 
+    project="jNetMap" file="/jNetMap/src/ch/rakudave/jnetmap/view/jung/EditGraphMousePlugin.java" binary="false">    
+    <position x="334" y="2551" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.view.jung.PopupGraphMousePlugin" 
+    project="jNetMap" file="/jNetMap/src/ch/rakudave/jnetmap/view/jung/PopupGraphMousePlugin.java" binary="false">    
+    <position x="688" y="2408" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.view.properties.InterfaceProperties" 
+    project="jNetMap" file="/jNetMap/src/ch/rakudave/jnetmap/view/properties/InterfaceProperties.java" binary="false">    
+    <position x="-679" y="2023" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.view.properties.DeviceProperties" 
+    project="jNetMap" file="/jNetMap/src/ch/rakudave/jnetmap/view/properties/DeviceProperties.java" binary="false">    
+    <position x="-680" y="2231" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.view.properties.ConnectionProperties" 
+    project="jNetMap" file="/jNetMap/src/ch/rakudave/jnetmap/view/properties/ConnectionProperties.java" binary="false">    
+    <position x="-680" y="2136" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.view.properties.MapProperties" 
+    project="jNetMap" file="/jNetMap/src/ch/rakudave/jnetmap/view/properties/MapProperties.java" binary="false">    
+    <position x="-680" y="2319" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.view.preferences.GeneralPanel" 
+    project="jNetMap" file="/jNetMap/src/ch/rakudave/jnetmap/view/preferences/GeneralPanel.java" binary="false">    
+    <position x="-810" y="1414" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.view.preferences.PluginPanel" project="jNetMap" 
+    file="/jNetMap/src/ch/rakudave/jnetmap/view/preferences/PluginPanel.java" binary="false">    
+    <position x="-593" y="1444" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.view.preferences.PreferencePanel" 
+    project="jNetMap" file="/jNetMap/src/ch/rakudave/jnetmap/view/preferences/PreferencePanel.java" binary="false">    
+    <position x="-808" y="1215" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.view.preferences.Preferences.TreeCard" 
+    project="jNetMap" file="/jNetMap/src/ch/rakudave/jnetmap/view/preferences/Preferences.java" binary="false">    
+    <position x="-804" y="982" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.view.preferences.LoggingPanel" 
+    project="jNetMap" file="/jNetMap/src/ch/rakudave/jnetmap/view/preferences/LoggingPanel.java" binary="false">    
+    <position x="-512" y="1331" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.view.preferences.AppearancePanel" 
+    project="jNetMap" file="/jNetMap/src/ch/rakudave/jnetmap/view/preferences/AppearancePanel.java" binary="false">    
+    <position x="-517" y="1160" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.view.preferences.Preferences" project="jNetMap" 
+    file="/jNetMap/src/ch/rakudave/jnetmap/view/preferences/Preferences.java" binary="false">    
+    <position x="-806" y="810" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.view.preferences.ToolBarPanel" 
+    project="jNetMap" file="/jNetMap/src/ch/rakudave/jnetmap/view/preferences/ToolBarPanel.java" binary="false">    
+    <position x="-515" y="954" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.net.NetworkScan.HostCheck" project="jNetMap" 
+    file="/jNetMap/src/ch/rakudave/jnetmap/net/NetworkScan.java" binary="false">    
+    <position x="2678" y="2166" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.net.PortScan" project="jNetMap" 
+    file="/jNetMap/src/ch/rakudave/jnetmap/net/PortScan.java" binary="false">    
+    <position x="2358" y="1881" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <interface corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.net.status.PingMethod" project="jNetMap" 
+    file="/jNetMap/src/ch/rakudave/jnetmap/net/status/PingMethod.java" binary="false">    
+    <position x="2419" y="2966" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <class corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.net.Subnet" project="jNetMap" 
+    file="/jNetMap/src/ch/rakudave/jnetmap/net/Subnet.java" binary="false">    
+    <position x="2263" y="2557" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <enumeration corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.net.status.Status" project="jNetMap" 
+    file="/jNetMap/src/ch/rakudave/jnetmap/net/status/Status.java" binary="false">    
+    <position x="1996" y="2482" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </enumeration>  
+  <class corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.net.status.IsReachable" project="jNetMap" 
+    file="/jNetMap/src/ch/rakudave/jnetmap/net/status/IsReachable.java" binary="false">    
+    <position x="2227" y="3155" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.net.WakeOnLan" project="jNetMap" 
+    file="/jNetMap/src/ch/rakudave/jnetmap/net/WakeOnLan.java" binary="false">    
+    <position x="2682" y="1825" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.net.NetworkScan" project="jNetMap" 
+    file="/jNetMap/src/ch/rakudave/jnetmap/net/NetworkScan.java" binary="false">    
+    <position x="2360" y="2166" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.net.status.OpenSocket" project="jNetMap" 
+    file="/jNetMap/src/ch/rakudave/jnetmap/net/status/OpenSocket.java" binary="false">    
+    <position x="2446" y="3155" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.net.SNMP" project="jNetMap" 
+    file="/jNetMap/src/ch/rakudave/jnetmap/net/SNMP.java" binary="false">    
+    <position x="2681" y="2006" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.net.status.NativePing" project="jNetMap" 
+    file="/jNetMap/src/ch/rakudave/jnetmap/net/status/NativePing.java" binary="false">    
+    <position x="2655" y="3155" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.net.Subnet.SubnetInfo" project="jNetMap" 
+    file="/jNetMap/src/ch/rakudave/jnetmap/net/Subnet.java" binary="false">    
+    <position x="2519" y="2555" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <interface corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.plugins.extensions.PingMethodPlugin" project="jNetMap"
+    file="/jNetMap/src/ch/rakudave/jnetmap/plugins/PingMethodPlugin.java" binary="false">    
+    <position x="2408" y="453" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <class corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.plugins.MailNotifier" project="jNetMap" 
+    file="/jNetMap/src/ch/rakudave/jnetmap/plugins/MailNotifier.java" binary="false">    
+    <position x="2013" y="962" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.plugins.UbuntuNotifier" project="jNetMap" 
+    file="/jNetMap/src/ch/rakudave/jnetmap/plugins/UbuntuNotifier.java" binary="false">    
+    <position x="2015" y="1311" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <interface corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.plugins.extensions.Notifier" project="jNetMap"
+    file="/jNetMap/src/ch/rakudave/jnetmap/plugins/Notifier.java" binary="false">    
+    <position x="2109" y="448" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <interface corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.plugins.extensions.SidebarPlugin" project="jNetMap"
+    file="/jNetMap/src/ch/rakudave/jnetmap/plugins/SidebarPlugin.java" binary="false">    
+    <position x="2616" y="448" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <class corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.plugins.LogPanel" project="jNetMap" 
+    file="/jNetMap/src/ch/rakudave/jnetmap/plugins/LogPanel.java" binary="false">    
+    <position x="2611" y="820" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.plugins.LogfileNotifier" project="jNetMap" 
+    file="/jNetMap/src/ch/rakudave/jnetmap/plugins/LogfileNotifier.java" binary="false">    
+    <position x="2289" y="907" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <interface corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.plugins.JNetMapPlugin" project="jNetMap"
+    file="/jNetMap/src/ch/rakudave/jnetmap/plugins/Plugin.java" binary="false">    
+    <position x="2527" y="226" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <class corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.plugins.ScriptNotifier" project="jNetMap" 
+    file="/jNetMap/src/ch/rakudave/jnetmap/plugins/ScriptNotifier.java" binary="false">    
+    <position x="2290" y="1248" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <interface corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.plugins.extensions.RightClickAction" project="jNetMap"
+    file="/jNetMap/src/ch/rakudave/jnetmap/plugins/RightClickAction.java" binary="false">    
+    <position x="2865" y="445" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <enumeration corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.util.logging.Logger.Level" 
+    project="jNetMap" file="/jNetMap/src/ch/rakudave/jnetmap/util/logging/Logger.java" binary="false">    
+    <position x="-758" y="2884" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </enumeration>  
+  <class corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.util.logging.ListenerAppender" 
+    project="jNetMap" file="/jNetMap/src/ch/rakudave/jnetmap/util/logging/ListenerAppender.java" binary="false">    
+    <position x="-302" y="3098" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.util.logging.FileAppender" project="jNetMap" 
+    file="/jNetMap/src/ch/rakudave/jnetmap/util/logging/FileAppender.java" binary="false">    
+    <position x="-308" y="2958" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.util.logging.Appender" project="jNetMap" 
+    file="/jNetMap/src/ch/rakudave/jnetmap/util/logging/Appender.java" binary="false">    
+    <position x="-550" y="3174" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.util.logging.Logger" project="jNetMap" 
+    file="/jNetMap/src/ch/rakudave/jnetmap/util/logging/Logger.java" binary="false">    
+    <position x="-552" y="2882" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.util.logging.ConsoleAppender" project="jNetMap" 
+    file="/jNetMap/src/ch/rakudave/jnetmap/util/logging/ConsoleAppender.java" binary="false">    
+    <position x="-303" y="3208" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.util.AlphanumComparator" project="jNetMap" 
+    file="/jNetMap/src/ch/rakudave/jnetmap/util/AlphanumComparator.java" binary="false">    
+    <position x="555" y="2980" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.util.Crypto" project="jNetMap" 
+    file="/jNetMap/src/ch/rakudave/jnetmap/util/Crypto.java" binary="false">    
+    <position x="-58" y="2876" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.util.DeviceEventFilter" project="jNetMap" 
+    file="/jNetMap/src/ch/rakudave/jnetmap/util/DeviceEventFilter.java" binary="false">    
+    <position x="2145" y="1612" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.util.Icons" project="jNetMap" 
+    file="/jNetMap/src/ch/rakudave/jnetmap/util/Icons.java" binary="false">    
+    <position x="-60" y="3107" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.util.IO" project="jNetMap" 
+    file="/jNetMap/src/ch/rakudave/jnetmap/util/IO.java" binary="false">    
+    <position x="255" y="3136" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.util.Lang" project="jNetMap" 
+    file="/jNetMap/src/ch/rakudave/jnetmap/util/Lang.java" binary="false">    
+    <position x="552" y="3157" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.util.Settings" project="jNetMap" 
+    file="/jNetMap/src/ch/rakudave/jnetmap/util/Settings.java" binary="false">    
+    <position x="783" y="3121" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.util.SkippingCollectionConverter" 
+    project="jNetMap" file="/jNetMap/src/ch/rakudave/jnetmap/util/SkippingCollectionConverter.java" binary="false">    
+    <position x="1113" y="3194" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.util.XStreamHelper" project="jNetMap" 
+    file="/jNetMap/src/ch/rakudave/jnetmap/util/XStreamHelper.java" binary="false">    
+    <position x="991" y="3075" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.util.SwingHelper" project="jNetMap" 
+    file="/jNetMap/src/ch/rakudave/jnetmap/util/SwingHelper.java" binary="false">    
+    <position x="257" y="2899" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.util.Tuple" project="jNetMap" 
+    file="/jNetMap/src/ch/rakudave/jnetmap/util/Tuple.java" binary="false">    
+    <position x="556" y="2855" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="ch.rakudave.jnetmap.util.StringHelper" project="jNetMap" 
+    file="/jNetMap/src/ch/rakudave/jnetmap/util/StringHelper.java" binary="false">    
+    <position x="1195" y="3075" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <generalization>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.util.logging.ConsoleAppender" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/util/logging/ConsoleAppender.java" binary="false"/>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.util.logging.Appender" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/util/logging/Appender.java" binary="false"/>  
+  </generalization>  
+  <association>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.view.MapView" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/view/MapView.java" binary="false" navigable="false">      
+      <attribute name="statusBar"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.view.IStatusbar" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/view/IStatusbar.java" binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.view.components.StatusBar" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/view/components/StatusBar.java" binary="false"/>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.view.IStatusbar" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/view/IStatusbar.java" binary="false"/>  
+  </realization>  
+  <association>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.controller.Controller" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/controller/Controller.java" binary="false" navigable="false">      
+      <attribute name="preferences"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.view.preferences.Preferences" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/view/preferences/Preferences.java" binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.plugins.LogfileNotifier" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/plugins/LogfileNotifier.java" binary="false"/>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.plugins.extensions.Notifier"
+      file="/jNetMap/src/ch/rakudave/jnetmap/plugins/Notifier.java" binary="false"/>  
+  </realization>  
+  <association>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.model.MapEvent" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/model/MapEvent.java" binary="false" navigable="false">      
+      <attribute name="type"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.model.MapEvent.Type" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/model/MapEvent.java" binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.model.MapEvent" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/model/MapEvent.java" binary="false"/>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.model.MapEvent.Type" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/model/MapEvent.java" binary="false"/>  
+  </nesting>  
+  <association>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.view.MapView" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/view/MapView.java" binary="false" navigable="false">      
+      <attribute name="mapPanel"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.view.components.TabPanel" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/view/components/TabPanel.java" binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.model.device.Device" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/model/device/Device.java" binary="false"/>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.model.device.Device.Type" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/model/device/Device.java" binary="false"/>  
+  </nesting>  
+  <nesting>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.util.logging.Logger" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/util/logging/Logger.java" binary="false"/>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.util.logging.Logger.Level" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/util/logging/Logger.java" binary="false"/>  
+  </nesting>  
+  <dependency>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.model.device.DeviceListener" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/model/device/DeviceListener.java" binary="false"/>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.model.device.DeviceEvent" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/model/device/DeviceEvent.java" binary="false"/>  
+  </dependency>  
+  <realization>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.view.MapView" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/view/MapView.java" binary="false"/>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.view.IView" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/view/IView.java" binary="false"/>  
+  </realization>  
+  <generalization>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.util.logging.ListenerAppender" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/util/logging/ListenerAppender.java" binary="false"/>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.util.logging.Appender" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/util/logging/Appender.java" binary="false"/>  
+  </generalization>  
+  <association>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.view.components.TabPanel.TabComponent" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/view/components/TabPanel.java" binary="false" navigable="false">      
+      <attribute name="vv"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="jNetMap" name="edu.uci.ics.jung.visualization.VisualizationViewer" 
+      file="/jNetMap/lib/jung/jung-visualization-2.0.1.jar" binary="true" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.view.components.TabPanel.TabComponent" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/view/components/TabPanel.java" binary="false" navigable="false">      
+      <attribute name="map"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.model.Map" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/model/Map.java" binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.model.IF.NetworkIF" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/model/IF/NetworkIF.java" binary="false"/>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.model.Connection" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/model/Connection.java" binary="false"/>  
+  </dependency>  
+  <nesting>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.view.components.TabPanel" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/view/components/TabPanel.java" binary="false"/>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.view.components.TabPanel.ClosableTabHeader" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/view/components/TabPanel.java" binary="false"/>  
+  </nesting>  
+  <generalization>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.view.preferences.PluginPanel" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/view/preferences/PluginPanel.java" binary="false"/>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.view.preferences.PreferencePanel" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/view/preferences/PreferencePanel.java" binary="false"/>  
+  </generalization>  
+  <generalization>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.plugins.extensions.Notifier"
+      file="/jNetMap/src/ch/rakudave/jnetmap/plugins/Notifier.java" binary="false"/>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.plugins.JNetMapPlugin"
+      file="/jNetMap/src/ch/rakudave/jnetmap/plugins/Plugin.java" binary="false"/>  
+  </generalization>  
+  <nesting>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.model.device.DeviceEvent" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/model/device/DeviceEvent.java" binary="false"/>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.model.device.DeviceEvent.Type" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/model/device/DeviceEvent.java" binary="false"/>  
+  </nesting>  
+  <dependency>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.model.factories.ConnectionFactory" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/model/factories/ConnectionFactory.java" binary="false"/>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.model.Connection" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/model/Connection.java" binary="false"/>  
+  </dependency>  
+  <generalization>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.view.preferences.ToolBarPanel" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/view/preferences/ToolBarPanel.java" binary="false"/>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.view.preferences.PreferencePanel" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/view/preferences/PreferencePanel.java" binary="false"/>  
+  </generalization>  
+  <realization>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.model.Map" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/model/Map.java" binary="false"/>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.model.device.DeviceListener" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/model/device/DeviceListener.java" binary="false"/>  
+  </realization>  
+  <association>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.plugins.MailNotifier" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/plugins/MailNotifier.java" binary="false" navigable="false">      
+      <attribute name="filter"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.util.DeviceEventFilter" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/util/DeviceEventFilter.java" binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.net.status.IsReachable" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/net/status/IsReachable.java" binary="false"/>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.net.status.PingMethod" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/net/status/PingMethod.java" binary="false"/>  
+  </realization>  
+  <association>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.model.factories.ConnectionFactory" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/model/factories/ConnectionFactory.java" binary="false" navigable="false">      
+      <attribute name="type"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.model.Connection.Type" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/model/Connection.java" binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.plugins.LogfileNotifier" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/plugins/LogfileNotifier.java" binary="false" navigable="false">      
+      <attribute name="filter"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.util.DeviceEventFilter" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/util/DeviceEventFilter.java" binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.plugins.extensions.PingMethodPlugin"
+      file="/jNetMap/src/ch/rakudave/jnetmap/plugins/PingMethodPlugin.java" binary="false"/>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.plugins.JNetMapPlugin"
+      file="/jNetMap/src/ch/rakudave/jnetmap/plugins/Plugin.java" binary="false"/>  
+  </generalization>  
+  <realization>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.plugins.LogPanel" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/plugins/LogPanel.java" binary="false"/>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.plugins.extensions.SidebarPlugin"
+      file="/jNetMap/src/ch/rakudave/jnetmap/plugins/SidebarPlugin.java" binary="false"/>  
+  </realization>  
+  <association>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.util.logging.Appender" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/util/logging/Appender.java" binary="false" navigable="false">      
+      <attribute name="level"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.util.logging.Logger.Level" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/util/logging/Logger.java" binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.model.factories.DeviceFactory" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/model/factories/DeviceFactory.java" binary="false" navigable="false">      
+      <attribute name="type"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.model.device.Device.Type" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/model/device/Device.java" binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.net.WakeOnLan" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/net/WakeOnLan.java" binary="false"/>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.plugins.extensions.RightClickAction"
+      file="/jNetMap/src/ch/rakudave/jnetmap/plugins/RightClickAction.java" binary="false"/>  
+  </realization>  
+  <nesting>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.net.NetworkScan" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/net/NetworkScan.java" binary="false"/>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.net.NetworkScan.HostCheck" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/net/NetworkScan.java" binary="false"/>  
+  </nesting>  
+  <association>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.util.logging.Logger" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/util/logging/Logger.java" binary="false" navigable="false">      
+      <attribute name="appenders"/>      
+      <multiplicity minimum="0" maximum="2147483647"/>    
+    </source>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.util.logging.Appender" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/util/logging/Appender.java" binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.model.factories.DeviceFactory" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/model/factories/DeviceFactory.java" binary="false"/>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.model.device.Device" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/model/device/Device.java" binary="false"/>  
+  </dependency>  
+  <association>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.view.jung.MapGraphMouse" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/view/jung/MapGraphMouse.java" binary="false" navigable="false">      
+      <attribute name="editingPlugin"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.view.jung.EditGraphMousePlugin" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/view/jung/EditGraphMousePlugin.java" binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.view.MapView" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/view/MapView.java" binary="false"/>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.plugins.NotePanel" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/plugins/NotePanel.java" binary="false"/>  
+  </dependency>  
+  <generalization>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.view.preferences.AppearancePanel" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/view/preferences/AppearancePanel.java" binary="false"/>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.view.preferences.PreferencePanel" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/view/preferences/PreferencePanel.java" binary="false"/>  
+  </generalization>  
+  <association>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.net.NetworkScan" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/net/NetworkScan.java" binary="false" navigable="false">      
+      <attribute name="found"/>      
+      <multiplicity minimum="0" maximum="2147483647"/>    
+    </source>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.net.status.PingMethod" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/net/status/PingMethod.java" binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association>    
+    <bendpoint x="1336" y="971"/>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.controller.Controller" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/controller/Controller.java" binary="false" navigable="false">      
+      <attribute name="currentMap"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.model.Map" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/model/Map.java" binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.view.jung.MapGraphMouse" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/view/jung/MapGraphMouse.java" binary="false" navigable="false">      
+      <attribute name="popupEditingPlugin"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.view.jung.PopupGraphMousePlugin" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/view/jung/PopupGraphMousePlugin.java" binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.net.status.OpenSocket" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/net/status/OpenSocket.java" binary="false"/>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.net.status.PingMethod" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/net/status/PingMethod.java" binary="false"/>  
+  </realization>  
+  <realization>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.view.MapView" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/view/MapView.java" binary="false"/>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.view.ISidebar" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/view/ISidebar.java" binary="false"/>  
+  </realization>  
+  <dependency>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.view.MapView" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/view/MapView.java" binary="false"/>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.view.components.MenuBar" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/view/components/MenuBar.java" binary="false"/>  
+  </dependency>  
+  <realization>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.plugins.UbuntuNotifier" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/plugins/UbuntuNotifier.java" binary="false"/>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.plugins.extensions.Notifier"
+      file="/jNetMap/src/ch/rakudave/jnetmap/plugins/Notifier.java" binary="false"/>  
+  </realization>  
+  <realization>    
+    <bendpoint x="1453" y="2693"/>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.model.IF.TransparentIF" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/model/IF/TransparentIF.java" binary="false"/>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.model.IF.NetworkIF" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/model/IF/NetworkIF.java" binary="false"/>  
+  </realization>  
+  <dependency>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.view.MapView" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/view/MapView.java" binary="false"/>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.view.components.EditPanel" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/view/components/EditPanel.java" binary="false"/>  
+  </dependency>  
+  <association>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.view.components.MenuBar" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/view/components/MenuBar.java" binary="false" navigable="false">      
+      <attribute name="parent"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.view.IView" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/view/IView.java" binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.view.preferences.GeneralPanel" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/view/preferences/GeneralPanel.java" binary="false"/>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.view.preferences.PreferencePanel" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/view/preferences/PreferencePanel.java" binary="false"/>  
+  </generalization>  
+  <generalization>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.util.logging.FileAppender" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/util/logging/FileAppender.java" binary="false"/>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.util.logging.Appender" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/util/logging/Appender.java" binary="false"/>  
+  </generalization>  
+  <association>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.net.status.IsReachable" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/net/status/IsReachable.java" binary="false" navigable="false">      
+      <attribute name="instance"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.net.status.IsReachable" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/net/status/IsReachable.java" binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.net.NetworkScan" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/net/NetworkScan.java" binary="false" navigable="false">      
+      <attribute name="subnet"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.net.Subnet" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/net/Subnet.java" binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.plugins.MailNotifier" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/plugins/MailNotifier.java" binary="false"/>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.plugins.extensions.Notifier"
+      file="/jNetMap/src/ch/rakudave/jnetmap/plugins/Notifier.java" binary="false"/>  
+  </realization>  
+  <realization>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.plugins.ScriptNotifier" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/plugins/ScriptNotifier.java" binary="false"/>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.plugins.extensions.Notifier"
+      file="/jNetMap/src/ch/rakudave/jnetmap/plugins/Notifier.java" binary="false"/>  
+  </realization>  
+  <association>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.model.Map" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/model/Map.java" binary="false" navigable="false">      
+      <attribute name="mapListeners"/>      
+      <multiplicity minimum="0" maximum="2147483647"/>    
+    </source>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.model.MapListener" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/model/MapListener.java" binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.model.MapListener" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/model/MapListener.java" binary="false"/>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.model.MapEvent" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/model/MapEvent.java" binary="false"/>  
+  </dependency>  
+  <association>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.view.components.TabPanel" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/view/components/TabPanel.java" binary="false" navigable="false">      
+      <attribute name="currentTab"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.view.components.TabPanel.TabComponent" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/view/components/TabPanel.java" binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.view.components.TabPanel.TabComponent" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/view/components/TabPanel.java" binary="false" navigable="false">      
+      <attribute name="mouse"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.view.jung.MapGraphMouse" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/view/jung/MapGraphMouse.java" binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.model.IF.PhysicalIF" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/model/IF/PhysicalIF.java" binary="false"/>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.model.IF.NetworkIF" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/model/IF/NetworkIF.java" binary="false"/>  
+  </realization>  
+  <association>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.view.components.StatusBar" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/view/components/StatusBar.java" binary="false" navigable="false">      
+      <attribute name="instance"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.view.components.StatusBar" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/view/components/StatusBar.java" binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.net.status.NativePing" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/net/status/NativePing.java" binary="false"/>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.net.status.PingMethod" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/net/status/PingMethod.java" binary="false"/>  
+  </realization>  
+  <dependency>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.model.Map" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/model/Map.java" binary="false"/>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.model.device.Device" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/model/device/Device.java" binary="false"/>  
+  </dependency>  
+  <generalization>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.plugins.extensions.RightClickAction"
+      file="/jNetMap/src/ch/rakudave/jnetmap/plugins/RightClickAction.java" binary="false"/>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.plugins.JNetMapPlugin"
+      file="/jNetMap/src/ch/rakudave/jnetmap/plugins/Plugin.java" binary="false"/>  
+  </generalization>  
+  <dependency>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.view.components.TabPanel" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/view/components/TabPanel.java" binary="false"/>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.view.components.WelcomeScreen" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/view/components/WelcomeScreen.java" binary="false"/>  
+  </dependency>  
+  <association>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.model.Connection" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/model/Connection.java" binary="false" navigable="false">      
+      <attribute name="status"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.net.status.Status" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/net/status/Status.java" binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.view.preferences.LoggingPanel" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/view/preferences/LoggingPanel.java" binary="false"/>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.view.preferences.PreferencePanel" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/view/preferences/PreferencePanel.java" binary="false"/>  
+  </generalization>  
+  <nesting>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.model.Connection" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/model/Connection.java" binary="false"/>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.model.Connection.Type" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/model/Connection.java" binary="false"/>  
+  </nesting>  
+  <generalization>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.plugins.extensions.SidebarPlugin"
+      file="/jNetMap/src/ch/rakudave/jnetmap/plugins/SidebarPlugin.java" binary="false"/>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.plugins.JNetMapPlugin"
+      file="/jNetMap/src/ch/rakudave/jnetmap/plugins/Plugin.java" binary="false"/>  
+  </generalization>  
+  <realization>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.model.IF.LogicalIF" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/model/IF/LogicalIF.java" binary="false"/>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.model.IF.NetworkIF" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/model/IF/NetworkIF.java" binary="false"/>  
+  </realization>  
+  <association>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.view.preferences.Preferences" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/view/preferences/Preferences.java" binary="false" navigable="false">      
+      <attribute name="parent"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.view.IView" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/view/IView.java" binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.controller.Controller" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/controller/Controller.java" binary="false" navigable="false">      
+      <attribute name="view"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.view.IView" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/view/IView.java" binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.model.Map" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/model/Map.java" binary="false"/>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.model.Connection" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/model/Connection.java" binary="false"/>  
+  </dependency>  
+  <association>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.controller.Controller" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/controller/Controller.java" binary="false" navigable="false">      
+      <attribute name="maps">        
+        <position x="1316" y="1056" width="30" height="13"/>      
+      </attribute>      
+      <multiplicity minimum="0" maximum="2147483647"/>    
+    </source>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.model.Map" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/model/Map.java" binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.plugins.UbuntuNotifier" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/plugins/UbuntuNotifier.java" binary="false" navigable="false">      
+      <attribute name="filter"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.util.DeviceEventFilter" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/util/DeviceEventFilter.java" binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.view.components.TabPanel" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/view/components/TabPanel.java" binary="false"/>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.view.components.TabPanel.TabComponent" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/view/components/TabPanel.java" binary="false"/>  
+  </nesting>  
+  <association>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.model.Map" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/model/Map.java" binary="false" navigable="false">      
+      <attribute name="history"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.controller.command.CommandHistory" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/controller/command/CommandHistory.java" binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.view.preferences.Preferences" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/view/preferences/Preferences.java" binary="false"/>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.view.preferences.Preferences.TreeCard" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/view/preferences/Preferences.java" binary="false"/>  
+  </nesting>  
+  <dependency>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.model.MapEvent" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/model/MapEvent.java" binary="false"/>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.model.Map" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/model/Map.java" binary="false"/>  
+  </dependency>  
+  <association>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.model.IF.PhysicalIF" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/model/IF/PhysicalIF.java" binary="false" navigable="false">      
+      <attribute name="method"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.net.status.PingMethod" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/net/status/PingMethod.java" binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.view.preferences.Preferences.TreeCard" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/view/preferences/Preferences.java" binary="false" navigable="false">      
+      <attribute name="nodePanel"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.view.preferences.PreferencePanel" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/view/preferences/PreferencePanel.java" binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.net.Subnet" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/net/Subnet.java" binary="false"/>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.net.Subnet.SubnetInfo" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/net/Subnet.java" binary="false"/>  
+  </nesting>  
+  <association>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.plugins.ScriptNotifier" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/plugins/ScriptNotifier.java" binary="false" navigable="false">      
+      <attribute name="filter"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.util.DeviceEventFilter" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/util/DeviceEventFilter.java" binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.model.IF.PhysicalIF" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/model/IF/PhysicalIF.java" binary="false" navigable="false">      
+      <attribute name="subnet"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.net.Subnet" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/net/Subnet.java" binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.view.MapView" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/view/MapView.java" binary="false"/>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.view.components.InfoPanel" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/view/components/InfoPanel.java" binary="false"/>  
+  </dependency>  
+  <association>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.model.Map" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/model/Map.java" binary="false" navigable="false">      
+      <attribute name="statusListeners"/>      
+      <multiplicity minimum="0" maximum="2147483647"/>    
+    </source>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.plugins.extensions.Notifier"
+      file="/jNetMap/src/ch/rakudave/jnetmap/plugins/Notifier.java" binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.controller.command.CommandHistory" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/controller/command/CommandHistory.java" binary="false" navigable="false">      
+      <attribute name="array"/>      
+      <multiplicity minimum="0" maximum="2147483647"/>    
+    </source>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.controller.command.Command" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/controller/command/Command.java" binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.net.status.NativePing" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/net/status/NativePing.java" binary="false" navigable="false">      
+      <attribute name="instance"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.net.status.NativePing" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/net/status/NativePing.java" binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association>    
+    <source project="jNetMap" name="ch.rakudave.jnetmap.model.IF.PhysicalIF" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/model/IF/PhysicalIF.java" binary="false" navigable="false">      
+      <attribute name="status"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="jNetMap" name="ch.rakudave.jnetmap.net.status.Status" 
+      file="/jNetMap/src/ch/rakudave/jnetmap/net/status/Status.java" binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" package="true" initial-value="false" signature="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true"/>    
+    <operations public="true" package="true" protected="true" private="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

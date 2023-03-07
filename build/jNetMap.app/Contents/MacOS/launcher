@@ -1,0 +1,22 @@
+#!/bin/sh
+# Author: Sri Harsha Chilakapati, Santiago Bernal
+
+# Constants
+JAVA_MAJOR=1
+JAVA_MINOR=8
+APP_JAR="application.jar"
+APP_NAME="jNetMap"
+VM_ARGS=""
+
+# Set the working directory
+DIR=$(cd "$(dirname "$0")"; pwd)
+
+# Error message for NO JAVA dialog
+ERROR_TITLE="Cannot launch $APP_NAME"
+ERROR_MSG="$APP_NAME requires Java version $JAVA_MAJOR.$JAVA_MINOR or later to run."
+DOWNLOAD_URL="https://java.com/download"
+
+# Run the application
+exec java $VM_ARGS -Dapple.laf.useScreenMenuBar=true -Dcom.apple.macos.use-file-dialog-packages=true -Xdock:name="$APP_NAME" -Xdock:icon="$DIR/../Resources/application.icns" -cp ".;$DIR;" -jar "$DIR/$APP_JAR"
+
+

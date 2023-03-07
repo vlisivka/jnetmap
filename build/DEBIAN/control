@@ -1,0 +1,16 @@
+Package: jnetmap
+Version: _set_by_script_
+Section: utils
+Priority: standard
+Architecture: all
+Depends: openjdk-17-jre | java-17-openjdk | openjdk-11-jre | java-11-openjdk | default-jre | jre
+Installed-Size: 7373
+Homepage: http://rakudave.ch/jnetmap
+Maintainer: rakudave <jnetmap@rakudave.ch>
+Description: graphical network monitoring
+ jNetMap is a network monitoring and documentation tool. 
+ It will (with some help from you) draw a representation of the network. 
+ It pings all registered devices every x minutes, updating their 
+ status according to the result of the ping. Alternatively you can also 
+ monitor a specific port, such as port 80 for webservers. 
+ Available devices are green, unavailable devices are red.

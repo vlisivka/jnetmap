@@ -1,0 +1,80 @@
+jnetmap (0.5.6); urgency=low
+  * added SVG support for icons, added cisco-svg
+  * use the configured font in vertex/edge labels
+  * added FlatLaf themes
+  * fix compatibility with Java 17
+
+jnetmap (0.5.5); urgency=low
+  * added history section to InfoPanel
+  * added live preview for connection styles
+  * improved SNMP request handling
+  * fixed connection status logic
+  * added ability to change connection target
+  * added name field to connection
+  * added background color setting
+  * added background image to maps
+  * improved handling for scaling/translating with the mouse
+  * switched build system from ant to maven
+  * switched plugin frameworks from jspf to pf4j
+  * fixed device interfaces not sorted by name
+  * added several new command line arguments
+  * improved man page documentation
+  * efforts towards reproducible builds
+  * removed splash screen (halves loading time)
+  * made number of ports, tcp timeout and zoom steps configurable
+  * added ignore device/connection for events
+  * added ARP device lookup
+  * French translation by Vincent Knecht
+  * allow an update interval of 0 (i.e. no updates)
+
+jnetmap (0.5.4); urgency=low
+  * Hungarian translation by Zoltan Fekete
+  * support for spacers in the toolbar
+  * added hamburger menu
+  * added script support (device menu)
+  * added dummy ping method
+  * added colored arrows and dots to interface lists
+  * added edge labels
+  * implemented multi-threaded status updates (configurable)
+  * added OUI information if MAC is set (properties and info panel)
+  * added desktop actions to the launcher (linux)
+  * added custom mime-type "application/x-jnetmap" (linux)
+  * fixed serialization problem in latest java versions
+
+jnetmap (0.5.3); urgency=low
+  * device icon themes
+  * custom device labels
+  * zoom reset
+  * interface list in info sidebar
+  * Portuguese translation by Delton Giacomozzi
+  * status history for devices/interfaces (for last seen, reports)
+  * "quiet time" for notifiers
+  * makefile support
+  * credits in about dialog
+  * advanced settings button
+  * device types: pbx, pda and plc
+  * latency info for interfaces
+  * added by-name choice for interfaces
+  * java 1.7 compatibility (i.e. loading saved maps)
+  * natural sorting for plugins in menu
+  * duplicate entries in network scanner
+  * improved notifier preference dialog
+  * connection line type set dynamically
+  * improved address handling (use hostname if possible instead of IP)
+
+jnetmap (0.5.2); urgency=low
+  * Arabic translation (Thanks to Samuel K. Michael, Zeki Abdulaali and Arick McNiel-Cho)
+  * Language fallback (show English if current translation is missing this word)
+  * Proper UTF-8 support
+  * Better "About" layout
+
+jnetmap (0.5.1); urgency=low
+  * Spanish translation by Lenny Qebian
+  * Button to open logfile
+  * Ability to specify port-ranges in scanner
+  * Restore previously opened maps
+  * Fixed language installation bug
+  * Fixed "no password"-bug
+
+jnetmap (0.5); urgency=low
+  * initial release of the rewritten version

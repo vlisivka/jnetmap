@@ -1,0 +1,13 @@
+#!/bin/sh
+set -e
+xdg-mime install --novendor --mode system "/usr/share/mime/packages/x-jnetmap.xml"
+xdg-icon-resource install --noupdate --novendor --context apps --mode system --size 16 "/usr/share/jnetmap/pixmaps/application-x-jnetmap-16.png" "application-x-jnetmap"
+xdg-icon-resource install --noupdate --novendor --context apps --mode system --size 32 "/usr/share/jnetmap/pixmaps/application-x-jnetmap-32.png" "application-x-jnetmap"
+xdg-icon-resource install --noupdate --novendor --context apps --mode system --size 64 "/usr/share/jnetmap/pixmaps/application-x-jnetmap-64.png" "application-x-jnetmap"
+xdg-icon-resource install --noupdate --novendor --context apps --mode system --size 128 "/usr/share/jnetmap/pixmaps/application-x-jnetmap-128.png" "application-x-jnetmap"
+xdg-icon-resource install --noupdate --novendor --context apps --mode system --size 256 "/usr/share/jnetmap/pixmaps/application-x-jnetmap-256.png" "application-x-jnetmap"
+xdg-icon-resource forceupdate
+
+if hash update-mime 2>/dev/null; then
+  update-mime
+fi

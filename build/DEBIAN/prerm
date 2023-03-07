@@ -1,0 +1,15 @@
+#!/bin/sh
+set -e
+if [ -f /usr/share/mime/packages/x-jnetmap.xml ]; then
+  xdg-mime uninstall --novendor --mode system "/usr/share/mime/packages/x-jnetmap.xml"
+  xdg-icon-resource uninstall --noupdate --novendor --context apps --mode system --size 16 "application-x-jnetmap"
+  xdg-icon-resource uninstall --noupdate --novendor --context apps --mode system --size 32 "application-x-jnetmap"
+  xdg-icon-resource uninstall --noupdate --novendor --context apps --mode system --size 64 "application-x-jnetmap"
+  xdg-icon-resource uninstall --noupdate --novendor --context apps --mode system --size 128 "application-x-jnetmap"
+  xdg-icon-resource uninstall --noupdate --novendor --context apps --mode system --size 256 "application-x-jnetmap"
+  xdg-icon-resource forceupdate
+
+  if hash update-mime 2>/dev/null; then
+    update-mime
+  fi
+fi

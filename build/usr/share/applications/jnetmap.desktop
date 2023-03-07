@@ -1,0 +1,22 @@
+[Desktop Entry]
+Version=0.5.6
+Type=Application
+Terminal=false
+Name=jNetMap
+Icon=/usr/share/jnetmap/jnetmap.png
+Exec=jnetmap %f
+Categories=Network;
+Keywords=Network;Monitoring;Graph;Ping;
+GenericName=jNetMap
+Comment=Graphical network monitoring
+MimeType=application/x-jnetmap
+Actions=new;open;
+StartupWMClass=ch-rakudave-jnetmap-controller-Controller
+
+[Desktop Action new]
+Name=New Map
+Exec=jnetmap --new
+
+[Desktop Action open]
+Name=Open Map
+Exec=jnetmap --open
